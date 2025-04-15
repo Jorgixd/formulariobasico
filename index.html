@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario para los estudiantes del istt tupac amaru</title>
+    <h1 style="text-align: center; color: black;">Formulario de Inscripción - Instituto de Educación Superior Tecnológico</h1>
+</head>
+ 
+<body   style="text-align: center;">
+  
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d484.8793368881443!2d-71.92721660764605!3d-13.5334623075519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2spe!4v1744736786371!5m2!1ses-419!2spe" 
+    width="600" height="250" style="border:0; margin-bottom: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+    <h1>Datos personales del Estudiante:</h1>
+    <label for="apellido">Apellidos: </label>
+    <input type="text" id="apellido" required><br/><br/>
+    <label for="nombre">Nombres: </label>
+    <input type="text" id="nombre" required><br/><br/>
+    <label for="DNI">DNI: </label>
+    <input type="number" id="DNI" required><br/><br/>
+    <label for="fecha">Fecha de nacimiento:: </label>
+    <input type="date" id="fecha" required><br/><br/>
+
+    <p>Sexo:</p>
+<input type="radio" id="masculino" name="sexo" value="masculino" required>
+<label for="masculino">Masculino</label><br/>
+
+<input type="radio" id="femenino" name="sexo" value="femenino">
+<label for="femenino">Femenino</label><br/><br/>
+
+
+    <label for="correo">correo: </label>
+    <input type="email" id="Correo" required><br/><br/>
+    <label for="carrera">Programa de estudios: </label>
+    <select id="carrera">
+        <option >Administración de Servicios de Hostelería y Restaurantes</option> 
+        <option >Desarrollo de Sistemas de Información</option> 
+        <option >Electricidad Industrial</option> 
+        <option >Enfermería Técnica</option> 
+        <option >Guía Oficial de Turismo</option> 
+        <option >Laboratorio Clínico y Anatomía Patológica</option> 
+        <option >Mecánica de Producción Industrial</option> 
+        <option >Mecatrónica Automotriz</option> 
+    </select><br/><br/>
+    <button>enviar</button>
+</body>
+</html>
